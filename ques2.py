@@ -1,6 +1,6 @@
-#Q2. Create a class Circle which has a class variable PI with the value=22/7.
-# Make two methods getArea and getCircumference inside this Circle class.
-# Which when invoked returns area and circumference of each circle instances.
+'''Q2. Create a class Circle which has a class variable PI with the value=22/7.
+ Make two methods getArea and getCircumference inside this Circle class.
+ Which when invoked returns area and circumference of each circle instances.'''
 
 class Circle:
     PI=22/7
