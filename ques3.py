@@ -7,6 +7,8 @@ class Employee:
         self.first_name=first_name
         self.last_name=last_name
         self.salary=salary
+        self.email=self.first_name+'.'self.last_name+'@deerwalk.edu.np'
+
 
     def display(self):
         print ("First name: {}".format(self.first_name))
