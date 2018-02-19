@@ -1,5 +1,5 @@
-#Q3. Create a Employee class and initialize it with first_name, last_name and salary. Also, it has a derived attribute called email, which is self generated when instance is created. Now, make methods to :
-#a. Display - It should display all information of the employee instance.
+'''Q3. Create a Employee class and initialize it with first_name, last_name and salary. Also, it has a derived attribute called email, which is self generated when instance is created. Now, make methods to :
+a. Display - It should display all information of the employee instance.'''
 
 class Employee:
 
