@@ -15,4 +15,5 @@ class Student:
 
 
 student1=Student.get_from_string("Shreya-A")
-print student1
+print (student1)
+print (student1.__dict__)
