@@ -4,18 +4,21 @@
 
 class Circle:
     PI=22/7
+
     def __init__(self,radius):
         self.radius=radius
 
 
     def getArea(self):
-        self.area=PI*self.radius*self.radius
+        self.area= Circle.PI*self.radius*self.radius
         return self.area
 
     def getCircumference(self):
-        self.circumference=2*PI*self.radius
+        self.circumference=2*Circle.PI*self.radius
+        return self.circumference
 
 
-C=RectangleGeometry(5,7)
+
+C=Circle(5)
 print (C.getArea())
-print (R.getPerimeter())
+print (C.getCircumference())
