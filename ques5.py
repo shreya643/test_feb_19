@@ -1,7 +1,7 @@
-#5. Define an Student class and initialize it with name and section.
-# Now, make a classmethod that takes in a string parameter "name-A" which creates an instance and
-# returns the instance based on parameter.
-# [Hint: use @classmethod decorator]
+'''5. Define an Student class and initialize it with name and section.
+ Now, make a classmethod that takes in a string parameter "name-A" which creates an instance and
+ returns the instance based on parameter.
+ [Hint: use @classmethod decorator]'''
 
 class Student:
     def __init__(self,name,sem):
