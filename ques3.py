@@ -7,15 +7,19 @@ class Employee:
         self.first_name=first_name
         self.last_name=last_name
         self.salary=salary
-        self.email=self.first_name+'.'self.last_name+'@deerwalk.edu.np'
+
+    def emailGen(self):
+        self.email=self.first_name+'.'+self.last_name+'@deerwalk.edu.np'
 
 
     def display(self):
         print ("First name: {}".format(self.first_name))
         print ("Last Name:{}".format(self.last_name))
         print("Salay:{}".format(self.salary))
+        print ("Email:{}".format(self.email))
 
 
 
 emp1=Employee('Shreya','Sapkota',800)
+emp1.emailGen()
 emp1.display()
