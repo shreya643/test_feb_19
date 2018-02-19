@@ -14,6 +14,7 @@ class RectangleGeometry:
 
     def getPerimeter(self):
         self.perimeter=2*(self.length+self.breadth)
+        return self.perimeter
 
 
 R=RectangleGeometry(5,7)
